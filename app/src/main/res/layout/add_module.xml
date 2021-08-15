@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewModuleCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/module_code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextModuleCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/code_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewModuleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/module_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextModuleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewModuleBreakdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/module_breakdown"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupBreakdown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonBreakdown50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/breakdown50" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBreakdown60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/breakdown60" />
+    </RadioGroup>
+</LinearLayout>

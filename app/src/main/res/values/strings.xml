@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Module Tracker</string>
+    <string name="button_modules">View My Modules</string>
+    <string name="button_cag">Calculate CAG</string>
+    <string name="modules_header">My Modules</string>
+    <string name="button_add">Add</string>
+    <string name="cag_header">CAG Breakdown</string>
+    <string name="cag_sub">Module Code - Module Name</string>
+    <string name="calc_header">Calculate CAG</string>
+    <string name="calc_module">Module</string>
+    <string name="calc_score">Scores</string>
+    <string name="calc_aks">Attainment of Skill and Knowledge (AKS)</string>
+    <string name="calc_sdl">Self-Directed Learning (SDL)</string>
+    <string name="calc_col">Collaborative Learning (COL)</string>
+    <string name="button_calc">Calculate</string>
+    <string name="calc_hint">Enter Score (0 - 4)</string>
+    <string name="module_name">Module Name</string>
+    <string name="module_code">Module Code</string>
+    <string name="module_breakdown">Module CAG Breakdown</string>
+    <string name="name_hint">Enter Name Here</string>
+    <string name="code_hint">Enter Code Here</string>
+    <string name="breakdown50">AKS: 50% | SDL: 25% | COL: 25%</string>
+    <string name="breakdown60">AKS: 60% | SDL: 20% | COL: 20%</string>
+    <string name="aks">AKS: x/4</string>
+    <string name="sdl">SDL: x/4</string>
+    <string name="col">COL: x/4</string>
+    <string name="score">Score: 100.00%</string>
+    <string name="grade">Grade: A</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+</resources>
